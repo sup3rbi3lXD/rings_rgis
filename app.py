@@ -12,12 +12,11 @@ app = Flask(__name__)
 def cnn():
 
     cnx = mysql.connector.connect(
-        user= "root",
-        password= "gYAhvOFskdkEVGSgnjteTCFtBcRVTnkI",
-        host= "kodama.proxy.rlwy.net",
-        port= 50348,
-        database= "railway",
-        
+        user="root",
+        password="OZmEoVjHAgaIdrRyJnpmsbOSBzDbwOfF",
+        host="reseau.proxy.rlwy.net",
+        port=20197,
+        database="railway",
     )
     return cnx
 app.secret_key = 'uma_chave_secreta_e_muito_segura_aqui'
